@@ -1,0 +1,52 @@
+const all = document.querySelector(".all");
+const starters = document.querySelector(".starters");
+const salads = document.querySelector(".salads");
+const specialty = document.querySelector(".specialty");
+all.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementById("item1").className = "menu-item";
+  document.getElementById("item2").className = "menu-item";
+  document.getElementById("item3").className = "menu-item";
+  document.getElementById("item4").className = "menu-item";
+  document.getElementById("item5").className = "menu-item";
+  document.getElementById("item6").className = "menu-item";
+  document.getElementById("item7").className = "menu-item";
+  document.getElementById("item8").className = "menu-item";
+  document.getElementById("item9").className = "menu-item";
+});
+starters.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementById("item1").className = "menu-item";
+  document.getElementById("item2").className = "itemNone";
+  document.getElementById("item3").className = "menu-item";
+  document.getElementById("item4").className = "itemNone";
+  document.getElementById("item5").className = "itemNone";
+  document.getElementById("item6").className = "menu-item";
+  document.getElementById("item7").className = "itemNone";
+  document.getElementById("item8").className = "itemNone";
+  document.getElementById("item9").className = "itemNone";
+});
+salads.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementById("item1").className = "itemNone";
+  document.getElementById("item2").className = "itemNone";
+  document.getElementById("item3").className = "itemNone";
+  document.getElementById("item4").className = "menu-item";
+  document.getElementById("item5").className = "itemNone";
+  document.getElementById("item6").className = "itemNone";
+  document.getElementById("item7").className = "menu-item";
+  document.getElementById("item8").className = "menu-item";
+  document.getElementById("item9").className = "itemNone";
+});
+specialty.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementById("item1").className = "itemNone";
+  document.getElementById("item2").className = "menu-item";
+  document.getElementById("item3").className = "itemNone";
+  document.getElementById("item4").className = "itemNone";
+  document.getElementById("item5").className = "menu-item";
+  document.getElementById("item6").className = "itemNone";
+  document.getElementById("item7").className = "itemNone";
+  document.getElementById("item8").className = "itemNone";
+  document.getElementById("item9").className = "menu-item";
+});
